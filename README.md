@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Live Now ----> https://fakestore-react-app-100.netlify.app/
+
+![] (images/Home.png)
+
+# select Product  --->
+
+![] (images/singleProducts.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
