@@ -1,0 +1,59 @@
+/* loading.css */
+
+
+.h4 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    font-weight: 200;
+    opacity: 0.5;
+    font-family: sans-serif;
+    color: black;
+}
+
+#container {
+    width: 70px;
+    height: 35px;
+    overflow: hidden;
+    position: absolute;
+    top: calc(50% - 17px);
+    left: calc(50% - 35px);
+}
+
+#loader {
+    width: 70px;
+    height: 70px;
+    border-style: solid;
+    border-top-color: black;
+    border-right-color: black;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    box-sizing: border-box;
+    animation: rotate 1s ease-in-out infinite;
+    transform: rotate(-200deg)
+}
+
+@keyframes rotate {
+    0% {
+        border-width: 10px;
+    }
+
+    25% {
+        border-width: 3px;
+    }
+
+    50% {
+        transform: rotate(115deg);
+        border-width: 10px;
+    }
+
+    75% {
+        border-width: 3px;
+    }
+
+    100% {
+        border-width: 10px;
+    }
+}
