@@ -4,11 +4,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Live Now ----> https://fakestore-react-app-100.netlify.app/
 
-![] (images/Home.png)
+![](images/Home.png)
 
 # select Product  --->
 
-![] (images/singleProducts.png)
+![](images/singleProducts.png)
 
 ## Available Scripts
 
